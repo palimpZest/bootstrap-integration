@@ -1,9 +1,48 @@
 /*
  *
+ * Common styles to erase after development
+ *
+ */
+
+/*Styles to start a Bootstrap project*/
+
+/*body {
+
+}
+[class*="col-"], footer {
+  background-color: lightgreen;
+  border: 2px solid black;
+  border-radius: 6px;
+  line-height: 40px;
+  text-align: center;
+}*/
+
+/** {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+}*/
+
+
+/*
+ *
  * Common styles
  *
  */
 
+
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
+
+h1 {
+  color: #FFFFFF;
+    font-size: 50px;
+}
 
 /*
  *
@@ -11,12 +50,31 @@
  *
  */
 
+/*nav {
+    margin-top: 10px;
+}*/
 
-/*
- *
- * Header
- *
- */
+/*.logo {
+
+}*/
+
+/*Header*/
+
+header {
+    background-image: url("design-assets/bgk-header.png");
+    height: 650px;
+}
+
+.logo-letters {
+    color: #3FACCC;
+    font-size: 40px;
+}
+
+.sections {
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
 
 
 /*
