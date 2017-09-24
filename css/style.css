@@ -76,7 +76,7 @@ h1 {
 /*Header*/
 
 header {
-    background-image: url("design-assets/bgk-header.png");
+    background-image: url("/images/bgk-header.png");
     height: 650px;
 }
 
